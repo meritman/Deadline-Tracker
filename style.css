@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: "Turret Road", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/021/430/632/non_2x/gradient-noise-blur-background-free-photo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 90%;
+    max-width: 1100px;
+    height: 600px;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 0 18px 26px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+  
+  .left-side {
+    flex: 1;
+    padding: 40px;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .left-side h1 {
+    font-size: 24px;
+  }
+  
+  .left-side input, .left-side button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+  
+  .left-side button {
+    background-color: #5c4caf;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .right-side {
+    flex: 2;
+    padding: 40px;
+    overflow-y: auto;
+  }
+  
+  .assignment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .assignment-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .countdown {
+    color: #d32f2f;
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  #heading{
+    font-size: 60px;
+    padding-left: 20px;
+  }
+  #sizeab{
+    font-size: 18px;
+  }
+  
